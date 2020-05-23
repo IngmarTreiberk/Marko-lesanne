@@ -1,0 +1,933 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.main {
+    height: 1166px;
+    width: 1600px;
+    display: flex;
+    margin: auto;
+}
+
+.container {
+    width: 1560px;
+    height: 1000px;
+    display: flex;
+    margin-top: 60px;
+    background-color: white;
+    margin-left: 40px;
+}
+
+/* Menüü */
+
+.menu {
+    width: 191px;
+    height: 1000px;
+    background-color: white;
+}
+
+.lipud {
+    width: 191px;
+    height: 50px;
+    background-color: white;
+}
+
+.lipudimg {
+    text-align: center;
+}
+
+.logo {
+    width: 191px;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+}
+
+.logout {
+    width: 191px;
+    height: 37px;
+    background-color: white
+}
+
+.name {
+    position: relative; top: 14px;
+}
+
+.logout img {
+    height: 20px;
+    margin-left: 165px;
+    margin-top: -30px;
+}
+
+.menubuttons {
+    height: 685px;
+    width: 191px;
+    background-color: white;
+}
+
+.menuakilles {
+    height: 34px;
+    width: 191px;
+    border: solid black;
+    border-radius: 5px;
+    margin-top: -685px;
+    background-color: white;
+}
+
+#menutext {
+    position: relative; top: 7px; left: 17px;
+}
+
+#menutexttwo {
+    position: relative; top: 5px; right: 17px;
+    text-align: right;
+}
+
+#button {
+    height: 34px;
+    width: 191px;
+    background-color: #34313d;
+    margin-top: 3px;
+    color: white;
+    border-radius: 5px;
+}
+
+#buttontwo {
+    height: 34px;
+    width: 167px;
+    margin-top: 3px;
+    color: white;
+    background-color: #5d707b;
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.certificate {
+    height: 80px;
+    width: 191px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.certificate img {
+    height: 78px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.navigation {
+    width: 1343px;
+    height: 40px;
+    display: flex;
+    margin-left: 26px;
+    background-color: #33313E;
+    font-size: 10px;
+    color: white;
+    font-size: 14px;
+    text-indent: 20px;
+}
+
+.navitext {
+    position: relative; top: 10px;
+}
+
+.alerts {
+    height: 25px;
+    width: 180px;
+    background-color: #9C0001;
+    margin-left: 900px;
+    border-radius: 5px;
+    margin-top: 6px;
+    
+}
+
+.akilles {
+    background-color: #ebebeb;
+    margin-top: 80px;
+    width: 1254px;
+    height: 256px;
+    margin-left: -1320px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.grinden {
+    background-color: #ebebeb;
+    margin-top: 342px;
+    width: 1254px;
+    height: 256px;
+    margin-left: -1254px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Projekti progress */
+
+.progress {
+    width: 128px;
+    height: 209px;
+    background-color: #bfbfbf;
+    margin-left: 6px;
+    display: flex;
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.planeeritud {
+    width: 43px;
+    height: 150px;
+    background: linear-gradient(to top, #3E843E 55%,black 45%);
+    margin-top: 20px;
+    margin-left: -100px;
+    border-radius: 5px;
+}
+
+.planeeritudtext {
+    transform: rotate(-90deg);
+    margin-left: -60px;
+    margin-top: 90px;
+    font-size: 10px;
+}
+
+.planeeritudprotsent {
+    color: white;
+    margin-left: 6px;
+    margin-top: -35px;
+}
+
+.tegelik {
+    width: 43px;
+    height: 150px;
+    background: linear-gradient(to top, #3E843E 45%,black 45%);
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.tegeliktext {
+    transform: rotate(-90deg);
+    margin-left: -60px;
+    margin-top: 90px;
+    font-size: 10px;
+}
+
+.tegelikprotsent {
+    color: white;
+    margin-left: 6px;
+    margin-top: -35px;
+}
+
+.daysleft {
+    height: 30px;
+    width: 118px;
+    margin-top: 175px;
+    margin-left: -118px;
+    border-radius: 5px;
+    background-color: #3E843E;
+}
+
+.days {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.left {
+    color: white;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: -23px;
+    font-size: 10px;
+}
+
+/* Projekteerimine */
+
+.projekteerimine {
+    width: 267px;
+    height: 209px;
+    background-color: #ebebeb;
+    margin-left: 10px;
+    margin-top: 6px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.leftbox {
+    width: 82px;
+    height: 58px;
+    background-color: #9C0001;
+    margin-top: 20px;
+    margin-left: -163px;
+    border-radius: 5px;
+}
+
+.leftboxtext {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.middlebox {
+    width: 82px;
+    height: 58px;
+    background-color: #9C0001;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.middleboxtext {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.rightbox {
+    width: 82px;
+    height: 58px;
+    background-color: #1B1368;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.rightboxtext {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 13px;
+    color: white;
+}
+
+.projekteerimiseprotsess {
+    height: 120px;
+    width: 252px;
+    margin-top: 85px;
+    margin-left: -252px;
+}
+
+.projekteerimisealgus {
+    font-size: 12px;
+}
+
+.projekteerimiselõpp {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -30px;
+}
+
+.projekteerimiseplaneeritud {
+    height: 30px;
+    width: 253px;
+    background: linear-gradient(to right, #3E843E 55%, #000000 45%);
+    border-radius: 5px;
+}
+
+.projektteerimisplaneerimiseprotsent {
+    color: white;
+    font-size: 15px;
+    padding-left: 107px;
+    padding-top: 5px;
+}
+
+.pptext {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.pptexttwo {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -14px;
+}
+
+.projekteerimisetegelik {
+    height: 30px;
+    width: 253px;
+    background: linear-gradient(to right, #3E843E 65%, #000000 35%);
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* Tootmine */
+
+.tootmine {
+    width: 267px;
+    height: 209px;
+    background-color: #ebebeb;
+    margin-left: 7px;
+    margin-top: 6px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.tootmineleftbox {
+    width: 82px;
+    height: 58px;
+    background-color: #3E843E;
+    margin-top: 20px;
+    margin-left: -90px;
+    border-radius: 5px;
+}
+
+.tootmineleftboxtext {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.tootminemiddlebox {
+    width: 82px;
+    height: 58px;
+    background-color: #3E843E;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.tootminemiddleboxtext {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.tootminerightbox {
+    width: 82px;
+    height: 58px;
+    background-color: #1B1368;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.tootminerightboxtext {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 13px;
+    color: white;
+}
+
+.tootmisprotsess {
+    height: 120px;
+    width: 252px;
+    margin-top: 85px;
+    margin-left: -252px;
+}
+
+.tootmisalgus {
+    font-size: 12px;
+}
+
+.tootmislõpp {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -30px;
+}
+
+.tootmisplaneeritud {
+    height: 30px;
+    width: 253px;
+    background: linear-gradient(to right, #3E843E 55%, #000000 45%);
+    border-radius: 5px;
+}
+
+.tootmisplaneerimiseprotsent {
+    color: white;
+    font-size: 15px;
+    padding-left: 107px;
+    padding-top: 5px;
+}
+
+.tootmisptext {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.tootmisptexttwo {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -14px;
+}
+
+.tootmistegelik {
+    height: 30px;
+    width: 253px;
+    background: linear-gradient(to right, #3E843E 65%, #000000 35%);
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.body {
+    width: 1240px;
+    height: 222px;
+    background-color: #bfbfbf;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+}
+
+/* Paigaldus */
+
+.paigaldus {
+    width: 267px;
+    height: 209px;
+    background-color: #ebebeb;
+    margin-left: 7px;
+    margin-top: 6px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.paigaldusleftbox {
+    width: 82px;
+    height: 58px;
+    background-color: #3E843E;
+    margin-top: 20px;
+    margin-left: -98px;
+    border-radius: 5px;
+}
+
+.paigaldusleftboxtext {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.paigaldusmiddlebox {
+    width: 82px;
+    height: 58px;
+    background-color: #3E843E;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.paigaldusmiddleboxtext {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.paigaldusrightbox {
+    width: 82px;
+    height: 58px;
+    background-color: #1B1368;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.paigaldusrightboxtext {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 13px;
+    color: white;
+}
+
+.paigaldusprotsess {
+    height: 120px;
+    width: 252px;
+    margin-top: 85px;
+    margin-left: -252px;
+}
+
+.paigaldusalgus {
+    font-size: 12px;
+}
+
+.paigalduslõpp {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -30px;
+}
+
+.paigaldusplaneeritud {
+    height: 30px;
+    width: 253px;
+    background: linear-gradient(to right, #3E843E 55%, #000000 45%);
+    border-radius: 5px;
+}
+
+.paigaldusplaneerimiseprotsent {
+    color: white;
+    font-size: 15px;
+    padding-left: 107px;
+    padding-top: 5px;
+}
+
+.paigaldusptext {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.paigaldusptexttwo {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -14px;
+}
+
+.paigaldustegelik {
+    height: 30px;
+    width: 253px;
+    background: linear-gradient(to right, #3E843E 65%, #000000 35%);
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* Hooldus */
+
+.hooldus {
+    width: 267px;
+    height: 209px;
+    background-color: #ebebeb;
+    margin-left: 7px;
+    margin-top: 6px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.hooldusleftbox {
+    width: 82px;
+    height: 58px;
+    background-color: #3E843E;
+    margin-top: 20px;
+    margin-left: -84px;
+    border-radius: 5px;
+}
+
+.hooldusleftboxtext {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.hooldusmiddlebox {
+    width: 82px;
+    height: 58px;
+    background-color: #3E843E;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.hooldusmiddleboxtext {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.hooldusrightbox {
+    width: 82px;
+    height: 58px;
+    background-color: #1B1368;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.hooldusrightboxtext {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 13px;
+    color: white;
+}
+
+.hooldusprotsess {
+    height: 120px;
+    width: 252px;
+    margin-top: 85px;
+    margin-left: -252px;
+}
+
+.hooldusalgus {
+    font-size: 12px;
+}
+
+.hoolduslõpp {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -30px;
+}
+
+.hooldusplaneeritud {
+    height: 30px;
+    width: 253px;
+    background: linear-gradient(to right, #3E843E 55%, #000000 45%);
+    border-radius: 5px;
+}
+
+.hooldusplaneerimiseprotsent {
+    color: white;
+    font-size: 15px;
+    padding-left: 107px;
+    padding-top: 5px;
+}
+
+.hooldusptext {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.hooldusptexttwo {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -14px;
+}
+
+.hooldustegelik {
+    height: 30px;
+    width: 253px;
+    background: linear-gradient(to right, #3E843E 65%, #000000 35%);
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* Grinden paigaldus */
+
+.grindenpaigaldus {
+    width: 267px;
+    height: 209px;
+    background-color: #CCCCCC;
+    margin-left: 7px;
+    margin-top: 6px;
+    display: flex;
+    border-radius: 5px;
+    color: #5c5959;
+}
+
+.grindenpaigaldusleftbox {
+    width: 82px;
+    height: 58px;
+    background-color: #8C8C8C;
+    margin-top: 20px;
+    margin-left: -98px;
+    border-radius: 5px;
+}
+
+.grindenpaigaldusleftboxtext {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: #5c5959;
+}
+
+.grindenpaigaldusmiddlebox {
+    width: 82px;
+    height: 58px;
+    background-color: #8C8C8C;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.grindenpaigaldusmiddleboxtext {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: #5c5959;
+}
+
+.grindenpaigaldusrightbox {
+    width: 82px;
+    height: 58px;
+    background-color: #8C8C8C;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.grindenpaigaldusrightboxtext {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 13px;
+    color: #5c5959;
+}
+
+.grindenpaigaldusprotsess {
+    height: 120px;
+    width: 252px;
+    margin-top: 115px;
+    margin-left: -252px;
+}
+
+.grindenpaigaldusalgus {
+    font-size: 12px;
+    text-align: left;
+    margin-top: -15px;
+}
+
+.grindenpaigalduslõpp {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -15px;
+}
+
+.grindenpaigaldusplaneeritud {
+    height: 30px;
+    width: 253px;
+    background: #8C8C8C;
+    border-radius: 5px;
+}
+
+.grindenpaigaldusplaneerimiseprotsent {
+    color: #5c5959;
+    font-size: 15px;
+    padding-left: 107px;
+    padding-top: 5px;
+}
+
+.grindenpaigaldusptext {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.grindenpaigaldustegelik {
+    height: 30px;
+    width: 253px;
+    background: #8C8C8C;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* Grinden hooldus */
+
+.grindenhooldus {
+    width: 267px;
+    height: 209px;
+    background-color: #CCCCCC;
+    margin-left: 7px;
+    margin-top: 6px;
+    display: flex;
+    border-radius: 5px;
+    color: #5c5959;
+}
+
+.grindenhooldusleftbox {
+    width: 82px;
+    height: 58px;
+    background-color: #8C8C8C;
+    margin-top: 20px;
+    margin-left: -83px;
+    border-radius: 5px;
+}
+
+.grindenhooldusleftboxtext {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: #5c5959;
+}
+
+.grindenhooldusmiddlebox {
+    width: 82px;
+    height: 58px;
+    background-color: #8C8C8C;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.grindenhooldusmiddleboxtext {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: #5c5959;
+}
+
+.grindenhooldusrightbox {
+    width: 82px;
+    height: 58px;
+    background-color: #8C8C8C;
+    margin-top: 20px;
+    margin-left: 3px;
+    border-radius: 5px;
+}
+
+.grindenhooldusrightboxtext {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 13px;
+    color: #5c5959;
+}
+
+.grindenhooldusprotsess {
+    height: 120px;
+    width: 252px;
+    margin-top: 115px;
+    margin-left: -252px;
+}
+
+.grindenhooldusalgus {
+    font-size: 12px;
+    text-align: left;
+    margin-top: -15px;
+}
+
+.grindenhoolduslõpp {
+    font-size: 12px;
+    text-align: right;
+    margin-top: -15px;
+}
+
+.grindenhooldusplaneeritud {
+    height: 30px;
+    width: 253px;
+    background: #8C8C8C;
+    border-radius: 5px;
+}
+
+.grindenhooldusplaneerimiseprotsent {
+    color: #5c5959;
+    font-size: 15px;
+    padding-left: 107px;
+    padding-top: 5px;
+}
+
+.grindenhooldusptext {
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.grindenhooldustegelik {
+    height: 30px;
+    width: 253px;
+    background: #8C8C8C;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
